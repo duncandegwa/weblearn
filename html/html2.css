@@ -1,0 +1,21 @@
+div#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+    padding: 30px;
+}
+iframe#ifr{
+    height: 300px;
+    width: 100%;
+    border: double;
+}
+div#head{
+    background-color: brown;
+    border-bottom: darkorchid;
+    padding: 30px;
+
+}
+body{
+    background-color: black;
+}

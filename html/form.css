@@ -1,0 +1,39 @@
+div#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+span#kimu{
+    color: rgb(11, 235, 29);
+    text-decoration: solid;
+}
+div#head{
+    background-color: brown;
+    align-content: center;
+    padding: 40px;
+}
+div#body{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+fieldset{
+    
+   
+    background-color: aquamarine;
+    color: black;
+    border-width: 10px;
+    border-color: brown;
+}
+legend{
+    color: rgb(0, 13, 128);
+}
+input#sub{
+    background-color: green;
+}
+input#sub:hover{
+    background-color: brown;
+}
