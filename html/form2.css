@@ -1,0 +1,38 @@
+a{
+    color: rgb(32, 223, 15);
+    background-color: brown;
+    text-align: center;
+    
+}
+a:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+div#head{
+    padding: 30px;
+    background-color: black;
+    color: darkgreen;
+
+}
+div#body{
+    background-color: darkslategrey;
+    color: chartreuse;
+    padding: 80px;
+
+}
+select#boys{
+    text-align: center;
+}
+span#footer{
+    color: chartreuse;
+}
+div#footer{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: beige;
+}
+button{
+    background-color: rgb(221, 52, 22);
+    align-items: center;
+}
