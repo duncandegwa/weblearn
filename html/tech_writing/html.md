@@ -4,7 +4,7 @@
  - Have some basic concepts of `HTML`.
 
 ### Defining HTML Forms
-As a developer, you use forms to collect user input data. Forms in `HTML` are defined using the ``<form>` element as illustrated below:
+As a developer, you use forms to collect user input data. Forms in `HTML` are defined using the `<form>` element as illustrated below:
 
 ```html
 <form>
