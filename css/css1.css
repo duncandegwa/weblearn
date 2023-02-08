@@ -1,7 +1,8 @@
 body{
     background-image: url(nasa5-400.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: top right;
+    background-color: black;
 }
 h1{
     color: green;
@@ -12,5 +13,56 @@ h1{
     border-bottom-color: magenta;
     border-left-color: gold;
     text-align: center;
-
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 90px;
+/* margin is the space around the border*/
+}
+a{
+    background-color: brown;
+    color: white;
+    border-radius: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: purple;
+}
+div{
+    color: white;
+    border: solid;
+    height: 100px;
+    width: 600px;
+    border-color: chartreuse;
+    margin: auto;
+    background-color: rgb(198, 218, 19);
+    border-radius: 20px;
+    
+}
+p#list{
+    color: white;
+}
+li{
+    color: whitesmoke;
+    list-style-type: circle;
+}
+table, th, td{
+    border: 2px solid rgb(221, 116, 18);
+    color: beige;
+    border-collapse: collapse;
+}
+table{
+    width: 600px;
+}
+tr:hover{
+    background-color: grey;
+}
+th{
+    background-color: green;
+}
+tr:nth-child(even){
+    background-color: blueviolet;
 }
