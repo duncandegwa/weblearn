@@ -1,2 +1,16 @@
+body{
+    background-image: url(nasa5-400.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+h1{
+    color: green;
+    border: double;
+    border-width: 15px;
+    border-right-color: purple ;
+    border-top-color: yellow;
+    border-bottom-color: magenta;
+    border-left-color: gold;
+    text-align: center;
 
- 
+}
