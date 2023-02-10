@@ -1,0 +1,30 @@
+div#art{
+    color: white;
+    background-color: black;
+    width: 400px;  /*USE MAX-WIDTH INSTEAD*/
+    margin: 30px;
+    border: 13px solid gray;
+    outline: 10px double blue;
+
+}
+a{
+    color: black;
+    background-color: rgb(231, 42, 8);
+    border-radius: 5px;
+}
+a:hover{
+    background-color: aqua;
+}
+img{
+    height: 200px;
+    width: 300px;
+    align-self: center;
+}
+div#header{
+    height: 80px;
+    background-color: bisque;
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
