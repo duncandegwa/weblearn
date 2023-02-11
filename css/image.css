@@ -1,0 +1,13 @@
+div.image{
+    position: relative;
+    margin: 90px;
+}
+div.write{
+    position:absolute;
+    top: 10px;
+    left: 0;
+    color: green;
+}
+h6{
+    color: green;
+}
