@@ -1,0 +1,40 @@
+div#new{
+    overflow: auto;
+    border: 5px solid green;
+    border-radius: 7px;
+    margin: auto;
+}
+img{
+    float: left;
+    border: 9px solid gray;
+    border-radius: 7px;
+    
+}
+div#new p{
+    font-size: 28px;
+}
+span{
+    color: brown;
+    
+}
+div.alig{
+    height: 150px;
+    width: 300px;
+    border: 8px double goldenrod;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 21px;
+}
+div.alig:hover{
+    background-color: black;
+    color: green;
+}
+h6::first-line{
+    background-color: blue;
+    color: rgba(230, 113, 18, 0.87);
+}
+::selection{
+    background-color: brown;
+    color: black;
+   
+}
