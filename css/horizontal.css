@@ -1,0 +1,57 @@
+ul {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    
+}
+li:first-child{
+    float: left ;
+    padding-top: 0;
+}
+li{
+    
+    float: right;
+    
+}
+li a{
+    
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(233, 176, 21);
+    display: block;
+    text-align: center;
+}
+li a:hover:not(.active){
+    background-color: rgb(30, 14, 170);
+}
+li a.active{
+    background-color: blueviolet;
+}
+
+div{
+    max-width: 75%;
+    border: 5px solid green;
+    border-radius: 8px;
+    margin: 25px 95px 0px 75px;
+    overflow: auto;
+    
+}
+img{
+    float: left;
+    border-radius: 9px;
+    padding: 2px;
+}
+span{
+    color: firebrick;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+p{
+    font-size: 23px;
+}
