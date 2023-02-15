@@ -1,0 +1,31 @@
+.tutorial{
+    float: left;
+    width: 250px;
+    margin: 9px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+}
+.desc{
+font-size: 20px;
+padding: 7px;
+text-align: center;
+
+
+}
+.desc .rmore{
+    background-color: rgb(236, 82, 11);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.tutorial.hero{
+    width: 100%;
+    height: auto;
+}
+.tutorial:hover{
+    border: 4px solid black;
+}

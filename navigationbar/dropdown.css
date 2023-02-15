@@ -1,0 +1,61 @@
+div.dpdown{
+    position: relative;
+    display: inline;
+}
+div.dpcontent{
+    position: absolute;
+    display: none;
+    background-color: beige;
+    color: black;
+    max-width: 100px;
+}
+button.dropdown{
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+    padding: 12px 12px 2px 12px;
+}
+div.dpcontent a{
+    background-color: aqua;
+    text-decoration: none;
+    padding: auto;
+    
+    
+}
+div.dpdown:hover button.dropdown{
+    background-color: green;
+    color: aliceblue;
+}
+div.dpdown:hover div.dpcontent{
+    display: block;
+}
+div.dpdown:hover div.dpcontent a{
+    background-color: beige;
+    display: block;
+}
+ span.txt{
+   visibility: hidden;
+   position: absolute;
+   border-radius: 6px;
+   border: 2px dotted darkgrey;
+   
+   padding: 15px 0;
+   top: 100%;
+   bottom: 50%;
+   z-index: 1;
+   width: 140px;
+   margin-left: -70px;
+}
+div.tooltip{
+    position: relative;
+    margin-top: 80px;
+    cursor: pointer;
+    
+}
+div.tooltip:hover span.txt {
+    background-color: black;
+   color: green;
+    visibility: visible;
+    
+    
+}
