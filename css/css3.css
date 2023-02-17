@@ -1,0 +1,22 @@
+span{
+    color: gold;
+}
+div.duncan{
+    background-image: url(g1.JPG) ;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-origin: border-box;
+    color: blueviolet;
+    height: 300px;
+    border: 10px solid black;
+}
+html{
+    background-image: url(g3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}

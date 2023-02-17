@@ -1,0 +1,19 @@
+.bg{
+    background: url(nasa5-400.jpg)repeat;
+   border: 4px solid red;
+    height: 300px;
+    border-radius: 10px;
+}
+.bg .trp{
+    border: 8px solid green;
+    margin: 40px;
+    border-radius: 7px;
+    background-color: gray;
+    opacity: 0.8;
+}
+p{
+    font-size: 30px;
+    color: wheat;
+    padding: 10px;
+    
+}
