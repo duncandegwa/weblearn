@@ -1,0 +1,67 @@
+div.header{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to bottom right,rgb(81, 255, 0),blue);
+    position: fixed ;
+    top: 0;
+    text-align: center;
+    color: white;
+    margin-left: 0;
+    
+    
+}
+div.header span{
+    color: darkred;
+    text-shadow: 2px 2px rgb(11, 196, 66);
+}
+
+div.shadow{
+    box-shadow: 10px 10px rgb(211, 10, 10);
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 40%;
+    height: 200px;
+}
+div.btm p{
+    width: 50%;
+    height: 20px;
+    border: 6px solid rebeccapurple;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.btm p:hover{
+    overflow: visible;
+    
+
+}
+div.picha{
+   margin-left: 40%;
+   bottom: 0;
+}
+img{
+    transition: width 2s, height 2s, transform 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+img:hover{
+    height: 500px;
+    width: 500px;
+    transform: rotate(360deg);
+}
+@keyframes bodybg{
+    0%{background-color: gold;}
+    30%{background-color: green;}
+    60%{background: url(avatar.JPG),background-size : cover;}
+    100%{background-color: yellowgreen;}
+}
+
+body{
+    
+    background-color: gold;
+    animation-name: bodybg;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /*try als reverse*/
+}
