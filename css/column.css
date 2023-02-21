@@ -1,0 +1,51 @@
+body{
+    background: url(g3.jpg);
+    background-size: cover;
+}
+div.clm{
+    background: linear-gradient(to right, green, gold);
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 0;
+    font-size: 24px;
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: solid;
+    column-rule-color: brown;
+    overflow: hidden;
+    
+    
+}
+h2{
+    column-span: all;
+    text-align: center;
+    font-size: 30px;
+}
+div.flex{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+   
+    display: flex;
+    background: linear-gradient(to right, blue, gray);
+    border: 2px solid black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.fx{
+    width: 500px;
+    margin: 40px;
+    background-color: aqua;
+    border: 2px dotted rebeccapurple;
+    height: 170px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+color: red;
+}
