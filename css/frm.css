@@ -86,7 +86,6 @@ h2
     display: flex;
     overflow: auto;
     background-color: grey;
-    height: 300px;
     
     flex-wrap: wrap;
 }
