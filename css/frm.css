@@ -1,0 +1,84 @@
+div.form
+{
+    color: rgb(119, 250, 12);
+    width: 80%;
+    
+    border: 4px solid green;
+    margin: auto;
+    border-radius: 5px;
+    background-color: black;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 40px;
+    animation-name: animat;
+    animation-duration: 53s;
+    animation-iteration-count: infinite;
+}
+h3
+{
+    text-align: center;
+    color: rgb(13, 247, 33);
+}
+input[type=text]
+{
+margin-top: 10px;
+margin-bottom: 10px;
+width: 90%;
+border: 2px solid white;
+background-color: black;
+font-size: 20px;
+height: 20px;
+padding: 5px;
+border-radius: 5px;
+color: gray;
+}
+input[type=text]:focus
+{
+color: aliceblue;
+background-color: rgb(189, 129, 18);
+
+}
+input[type=submit]
+{
+margin-top: 10px;
+margin-bottom: 10px;
+width: 90%;
+border: 1px solid white;
+background-color: rgb(40, 226, 15);
+height: 30px;
+padding: 5px;
+border-radius: 5px;
+font-size: 17px;
+font-weight: bold;
+}
+input[type=submit]:hover
+{
+background-color: brown;
+
+}
+@keyframes animat{
+    0%{background-color: black;}
+    25%{background-color: grey;}
+    50%{background-color: blueviolet;}
+    100%{background-color: black;}
+}
+/*
+@keyframes animate{
+    0%{
+        background-image: url(g1.JPG);
+    }
+    10%{
+        background-image: url(g5.JPG);
+        background-size: cover;
+    }
+    29%{
+        background-image: url(g4.JPG);
+        background-size: cover;
+    }
+    50%{
+        background: linear-gradient(to right, grey, black, green);
+    }
+    100%{
+        background-image: url(g1.JPG);
+    }
+} */
